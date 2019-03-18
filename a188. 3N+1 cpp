@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main() {
+	
+	int X,Y; 
+	cin>>X;
+	while(X!=1)              //數字還沒變成1時
+	{
+	
+	
+	if(X%2!=0) X=3*X+1;      //目前的n是奇數
+	
+	else X=X/2               //目前的n是偶數
+	
+	Y=Y+1;
+	
+	}
+	cout<<Y+1;
+}
+
